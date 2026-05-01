@@ -170,23 +170,25 @@ You can find all the code and analysis details in the related Jupyter Notebook f
 
 ```
 ├── README.md                                    <- Project overview file
-├── Lags Feature.png                             <- Image explaining Lags Features
-├── Rolling Window CV.png                        <- Image explaining Rolling Window Cross-Validation
-├── Multi step direct forecasting.png            <- Image explaining Multi-Step Direct Forecasting strategy
-├── Result.png                                   <- Graph showing forecasting results on the Test set
+├── Summarize Results.md                         <- Summary and comparison of all methods
+├── Full Research Report.pdf                     <- Full research report document
+│
+├── Pictures/
+│   ├── Lags Feature.png                         <- Image explaining Lags Features
+│   ├── Rolling Window CV.png                    <- Image explaining Rolling Window Cross-Validation
+│   ├── Multi step direct forecasting.png        <- Image explaining Multi-Step Direct Forecasting strategy
+│   └── Result.jpg                               <- Graph showing forecasting results on the Test set
 │
 ├── Time Series Method/
 │   ├── ARIMA.ipynb                              <- ARIMA analysis and forecasting
 │   └── Holt's Exponential Smoothing.ipynb       <- Holt's ES analysis and forecasting
 │
-├── Learning Based/
-│   ├── LSTM/
-│   │   ├── LSTM Forecasting.ipynb               <- LSTM forecasting (using the best parameters)
-│   │   └── LSTM grid search.ipynb               <- Hyperparameter search for LSTM
-│   │
-│   └── XGBoost/
-│       ├── XGBoost Forecasting.ipynb            <- XGBoost forecasting (using the best parameters)
-│       └── XGBoost grid search.ipynb            <- Hyperparameter search for XGBoost
-│
-└── Summarize Results.md                         <- Summary and comparison of all methods
+└── Learning Based/
+    ├── LSTM/
+    │   ├── LSTM Forecasting.ipynb               <- LSTM forecasting (using the best parameters)
+    │   └── LSTM grid search.ipynb               <- Hyperparameter search for LSTM
+    │
+    └── XGBoost/
+        ├── XGBoost Forecasting.ipynb            <- XGBoost forecasting (using the best parameters)
+        └── XGBoost grid search.ipynb            <- Hyperparameter search for XGBoost
 ```
